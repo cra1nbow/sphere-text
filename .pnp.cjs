@@ -41,6 +41,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@open-wc/eslint-config", "virtual:6c23db79a1190d5df76c7944d17ed7b3fa4439abc26470a7caf14a9b79234772b909d58a31dd4bb2374ded94386dc90eb124a6bb86431365c2a16fb21ab3bcd1#npm:4.3.0"],
             ["@rollup/plugin-babel", "virtual:6c23db79a1190d5df76c7944d17ed7b3fa4439abc26470a7caf14a9b79234772b909d58a31dd4bb2374ded94386dc90eb124a6bb86431365c2a16fb21ab3bcd1#npm:5.3.0"],
             ["@rollup/plugin-node-resolve", "virtual:6c23db79a1190d5df76c7944d17ed7b3fa4439abc26470a7caf14a9b79234772b909d58a31dd4bb2374ded94386dc90eb124a6bb86431365c2a16fb21ab3bcd1#npm:13.0.6"],
+            ["@types/three", "npm:0.133.1"],
             ["@typescript-eslint/eslint-plugin", "virtual:6c23db79a1190d5df76c7944d17ed7b3fa4439abc26470a7caf14a9b79234772b909d58a31dd4bb2374ded94386dc90eb124a6bb86431365c2a16fb21ab3bcd1#npm:4.33.0"],
             ["@typescript-eslint/parser", "virtual:6c23db79a1190d5df76c7944d17ed7b3fa4439abc26470a7caf14a9b79234772b909d58a31dd4bb2374ded94386dc90eb124a6bb86431365c2a16fb21ab3bcd1#npm:4.33.0"],
             ["@web/dev-server", "npm:0.1.25"],
@@ -66,6 +67,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["rollup", "npm:2.58.3"],
             ["rollup-plugin-terser", "virtual:408927838f1b455938be82a896e999fe46584c79af766326c40fa3513da7ab08fc4f99b7484173b168260a2726e9f914f3f57026ac63dced235b2a7727b3adb1#npm:7.0.2"],
             ["rollup-plugin-workbox", "npm:6.2.0"],
+            ["three", "npm:0.133.1"],
             ["tslib", "npm:2.3.1"],
             ["typescript", "patch:typescript@npm%3A4.4.4#~builtin<compat/typescript>::version=4.4.4&hash=ddd1e8"]
           ],
@@ -4287,6 +4289,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/serve-static", "npm:1.13.10"],
             ["@types/mime", "npm:1.3.2"],
             ["@types/node", "npm:16.11.6"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["@types/three", [
+        ["npm:0.133.1", {
+          "packageLocation": "./.yarn/cache/@types-three-npm-0.133.1-65d39fee8c-5259827ac1.zip/node_modules/@types/three/",
+          "packageDependencies": [
+            ["@types/three", "npm:0.133.1"]
           ],
           "linkType": "HARD",
         }]
@@ -10112,6 +10123,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@open-wc/eslint-config", "virtual:6c23db79a1190d5df76c7944d17ed7b3fa4439abc26470a7caf14a9b79234772b909d58a31dd4bb2374ded94386dc90eb124a6bb86431365c2a16fb21ab3bcd1#npm:4.3.0"],
             ["@rollup/plugin-babel", "virtual:6c23db79a1190d5df76c7944d17ed7b3fa4439abc26470a7caf14a9b79234772b909d58a31dd4bb2374ded94386dc90eb124a6bb86431365c2a16fb21ab3bcd1#npm:5.3.0"],
             ["@rollup/plugin-node-resolve", "virtual:6c23db79a1190d5df76c7944d17ed7b3fa4439abc26470a7caf14a9b79234772b909d58a31dd4bb2374ded94386dc90eb124a6bb86431365c2a16fb21ab3bcd1#npm:13.0.6"],
+            ["@types/three", "npm:0.133.1"],
             ["@typescript-eslint/eslint-plugin", "virtual:6c23db79a1190d5df76c7944d17ed7b3fa4439abc26470a7caf14a9b79234772b909d58a31dd4bb2374ded94386dc90eb124a6bb86431365c2a16fb21ab3bcd1#npm:4.33.0"],
             ["@typescript-eslint/parser", "virtual:6c23db79a1190d5df76c7944d17ed7b3fa4439abc26470a7caf14a9b79234772b909d58a31dd4bb2374ded94386dc90eb124a6bb86431365c2a16fb21ab3bcd1#npm:4.33.0"],
             ["@web/dev-server", "npm:0.1.25"],
@@ -10137,6 +10149,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["rollup", "npm:2.58.3"],
             ["rollup-plugin-terser", "virtual:408927838f1b455938be82a896e999fe46584c79af766326c40fa3513da7ab08fc4f99b7484173b168260a2726e9f914f3f57026ac63dced235b2a7727b3adb1#npm:7.0.2"],
             ["rollup-plugin-workbox", "npm:6.2.0"],
+            ["three", "npm:0.133.1"],
             ["tslib", "npm:2.3.1"],
             ["typescript", "patch:typescript@npm%3A4.4.4#~builtin<compat/typescript>::version=4.4.4&hash=ddd1e8"]
           ],
@@ -10471,6 +10484,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/text-table-npm-0.2.0-d92a778b59-b6937a38c8.zip/node_modules/text-table/",
           "packageDependencies": [
             ["text-table", "npm:0.2.0"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["three", [
+        ["npm:0.133.1", {
+          "packageLocation": "./.yarn/cache/three-npm-0.133.1-4b6d6d8eec-ab9bea5f74.zip/node_modules/three/",
+          "packageDependencies": [
+            ["three", "npm:0.133.1"]
           ],
           "linkType": "HARD",
         }]
