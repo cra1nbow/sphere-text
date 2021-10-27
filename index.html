@@ -22,6 +22,10 @@
   </head>
 
   <body>
+    <input
+      type="text"
+      oninput="document.querySelector('sphere-text').setAttribute('text', this.value)"
+    />
     <sphere-text></sphere-text>
 
     <script type="module" src="./out-tsc/src/sphere-text.js"></script>
