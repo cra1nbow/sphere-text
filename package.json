@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "lit": "^2.0.2",
-    "three": "^0.133.1"
+    "three": "^0.137.0"
   },
   "devDependencies": {
     "@babel/preset-env": "^7.15.8",
