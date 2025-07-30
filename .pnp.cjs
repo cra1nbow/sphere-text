@@ -4555,7 +4555,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["get-stream", "npm:6.0.1"],
             ["is-stream", "npm:2.0.1"],
             ["isbinaryfile", "npm:4.0.8"],
-            ["koa", "npm:2.13.4"],
+            ["koa", "npm:2.16.2"],
             ["koa-etag", "npm:4.0.0"],
             ["koa-send", "npm:5.0.1"],
             ["koa-static", "npm:5.0.0"],
@@ -5693,10 +5693,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["cookies", [
-        ["npm:0.8.0", {
-          "packageLocation": "./.yarn/cache/cookies-npm-0.8.0-d7388cbd94-806055a44f.zip/node_modules/cookies/",
+        ["npm:0.9.1", {
+          "packageLocation": "./.yarn/cache/cookies-npm-0.9.1-80a82ae099-213e4d1484.zip/node_modules/cookies/",
           "packageDependencies": [
-            ["cookies", "npm:0.8.0"],
+            ["cookies", "npm:0.9.1"],
             ["depd", "npm:2.0.0"],
             ["keygrip", "npm:1.1.0"]
           ],
@@ -8001,15 +8001,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["koa", [
-        ["npm:2.13.4", {
-          "packageLocation": "./.yarn/cache/koa-npm-2.13.4-8aee05a69e-c9a6f9c803.zip/node_modules/koa/",
+        ["npm:2.16.2", {
+          "packageLocation": "./.yarn/cache/koa-npm-2.16.2-f6cf47ab73-c4c193c69f.zip/node_modules/koa/",
           "packageDependencies": [
-            ["koa", "npm:2.13.4"],
+            ["koa", "npm:2.16.2"],
             ["accepts", "npm:1.3.7"],
             ["cache-content-type", "npm:1.0.1"],
             ["content-disposition", "npm:0.5.3"],
             ["content-type", "npm:1.0.4"],
-            ["cookies", "npm:0.8.0"],
+            ["cookies", "npm:0.9.1"],
             ["debug", "virtual:4d5b41b4c144bc0f7c0e4c4c2164d0bc5d527811557a2fd7f2ec3307b1cf1ca97f42a730a90b32caada41091b3e922a1e5a2d8c6ff2841b6857305532c68aca8#npm:4.3.2"],
             ["delegates", "npm:1.0.0"],
             ["depd", "npm:2.0.0"],
